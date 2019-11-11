@@ -13,7 +13,7 @@
     </head>
 
     <body>
-        <div class="container">
+        <div class="main container">
             <div class="row">
                 <div class="col-12 col-md-6 text-center">
                     <h2 class="text-uppercase font-italic text-white">
@@ -60,7 +60,11 @@
             <div class="row">
                 <h2>Về dịch vụ của chúng tối</h2>
                 <div class="col-12 col-md-6">
-                    <ul>
+                    <ul class="ul-services">
+                        <li>
+                            <img class="img-responsive" src="images/rose.jpeg" alt="image"/>
+                            <span>Các gói lãi tốt Ưu đãi mỗi ngày</span>
+                        </li>
                         <li>
                             <img class="img-responsive" src="images/rose.jpeg" alt="image"/>
                             <span>Các gói lãi tốt Ưu đãi mỗi ngày</span>
@@ -120,13 +124,63 @@
                     </div>
                 </div>
             </div>
+
+            <div class="row section-condition">
+                <h2>Điều kiện cầm sim điện thoại</h2>
+                <div class="col-12 col-md-4">
+                    <img class="img-responsive" src="images/rose.jpeg" alt="image"/>
+                    <p>Điều kiện cắm sim điện thoại</p>
+                </div>
+            </div>
+
+            <div class="row section-procedure">
+                <h2>Thủ tục cầm sim điện thoại</h2>
+                <div class="col-12 col-md-3">
+                    <img class="img-responsive" src="images/rose.jpeg" alt="image"/>
+                    <p>Điều kiện cầm sim điện thoại</p>
+                </div>
+            </div>
+
+            <div class="row section-finish">
+                <h2>Hợp đồng cầm sim điện thoại</h2>
+                <div class="col-12 col-md-3">
+                    <img class="img-responsive" src="images/rose.jpeg" alt="image"/>
+                    <p>Điều kiện cầm sim điện thoại</p>s
+                </div>
+                <button type="button" class="btn btn-primary">Vay ngay để nhận nhiều ưu đãi</button>
+            </div>
+
         </div>
+
+        <footer class="text-center">
+            <h5 class="text-red"></h5>
+            <p></p>
+            <div class="row footer-item">
+                <div class="col-12 col-md-4"></div>
+                <div class="col-12 col-md-4"></div>
+                <div class="col-12 col-md-4"></div>
+            </div>
+        </footer>
     </body>
 
     <script>
         $(document).ready(function() {
             $('#owl-customer').owlCarousel({
                 nav : true,
+                loop:true,
+                margin:10,
+                items: 3,
+                responsive:{
+                    0:{
+                        items:1,
+                    },
+                    600:{
+                        items:2,
+                    },
+                    1000:{
+                        items:3,
+                    }
+                }
             });
         });
     </script>

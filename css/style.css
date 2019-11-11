@@ -16,3 +16,39 @@ ul, ol {
 {
     touch-action: manipulation;
 }
+
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.btn {
+    border-radius: 0;
+}
+
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary {
+    color: #fff;
+    background-color: red;
+    border-color: red;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: red;
+    border-color: red;
+}
+
+.text-red {
+    color: red;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+footer {
+    background-color: #333;
+}
